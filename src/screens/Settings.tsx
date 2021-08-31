@@ -5,8 +5,6 @@ import ThemeContext from '../context/themeContext';
 
 const Settings: FC = () => {
   const {isMainTheme, changeTheme} = useContext(ThemeContext);
-  console.log(isMainTheme, changeTheme);
-
   return (
     <Wrapper>
       <List>

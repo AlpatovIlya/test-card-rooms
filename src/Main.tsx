@@ -14,7 +14,6 @@ const Main: FC = () => {
   const dispatch = useDispatch();
 
   const changeTheme = () => {
-    console.log('them chaange ');
     settoogleTheme((prev) => !prev);
     setTheme(toogleTheme? mainTheme: darkTheme);
   };
