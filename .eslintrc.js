@@ -11,6 +11,8 @@ module.exports = {
   'parserOptions': {
     'ecmaFeatures': {
       'jsx': true,
+      'tsx': true,
+
     },
     'ecmaVersion': 12,
     'sourceType': 'module',
@@ -18,6 +20,7 @@ module.exports = {
   'plugins': [
     'react',
     '@typescript-eslint',
+    'jsdoc',
   ],
   'rules': {
   },
